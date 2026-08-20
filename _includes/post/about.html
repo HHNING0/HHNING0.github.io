@@ -1,7 +1,6 @@
 <div class="about">
-    <div class="about__devider">*****</div>
     <div class="about__text">
-        Written by <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
-        on <strong>{{ page.date | date: "%d %B %Y" }}</strong>
+        作者：<strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
+        ，发布于 <strong>{{ page.date | date: "%Y年%m月%d日" }}</strong>
     </div>
 </div>
