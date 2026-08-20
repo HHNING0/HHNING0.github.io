@@ -1,8 +1,5 @@
-- slug: design
-  name: Design
+- slug: tech
+  name: 技术
 
-- slug: tools
-  name: Tools
-
-- slug: productivity
-  name: Productivity
+- slug: murmur
+  name: 碎碎念
