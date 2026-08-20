@@ -164,6 +164,16 @@ strong {
     color: $iron;
 }
 
+.post-teaser__lock {
+    font-size: 16px;
+    font-weight: 400;
+    color: $cloudy;
+    margin-left: 10px;
+    vertical-align: baseline;
+    position: relative;
+    top: -1px;
+}
+
 .post-teaser__date {
     font-size: 16px;
     float: right;
