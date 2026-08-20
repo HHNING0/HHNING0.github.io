@@ -3,12 +3,16 @@
         <a href="/" class="logo" translate="no">{{ site.title }}</a>
 
         <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">关于</a></li>
+            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">简介</a></li>
             <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">博客</a></li>
         </ul>
     </div>
 
     <ul class="social-links">
+        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=3600917069&amp;site=qq&amp;menu=yes" class="social-links__entry" target="_blank">
+            <i class="fa fa-qq"></i>
+        </a>
+
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
                 <i class="fa fa-github"></i>
